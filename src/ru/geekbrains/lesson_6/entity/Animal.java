@@ -23,8 +23,8 @@ class Animal {
         } else {
             System.out.println(name + " can't run " + runDistance + " meters, only " + this.runDistance);
         }
-
     }
+
     public void swim (int swimDistance){
         if (this.swimDistance < 1){
             System.out.println("Sorry, " + name + " can't swim");
@@ -35,6 +35,7 @@ class Animal {
             System.out.println(name + " can't swim " + swimDistance + " meters, only " + this.swimDistance);
         }
     }
+
     public void jumpOverObstacles (float jumpHeight){
         if (jumpHeight <= this.jumpHeight){
             System.out.println(name + " can jump for " + jumpHeight + " meters");

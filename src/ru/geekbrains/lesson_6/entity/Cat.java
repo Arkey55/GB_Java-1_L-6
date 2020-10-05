@@ -7,8 +7,7 @@ public class Cat extends Animal {
     public Cat(String name) {
         super(name,
                 100 + new Random().nextInt(200),
-                1f + new Random().nextInt(2),
-                0
+                1f + new Random().nextInt(2)
         );
     }
 }

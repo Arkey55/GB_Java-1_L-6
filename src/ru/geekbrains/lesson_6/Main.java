@@ -9,8 +9,9 @@ public class Main {
         Cat cat1 = new Cat("Chloe");
         Cat cat2 = new Cat("Marsh");
         dog1.run(499);
+        dog1.jumpOverObstacles(1);
         dog1.swim(7);
-        cat1.swim(1);
+        cat1.run(200);
         cat2.jumpOverObstacles(2);
     }
 }

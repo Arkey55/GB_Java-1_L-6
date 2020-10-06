@@ -5,17 +5,17 @@ package ru.geekbrains.lesson_6.entity;
  */
 abstract class Animal {
 
-    String name;
-    int runDistance;
-    float jumpHeight;
+    protected String name;
+    protected int runDistance;
+    protected float jumpHeight;
 
-    Animal(String name, int runDistance, float jumpHeight) {
+    protected Animal(String name, int runDistance, float jumpHeight) {
         this.name = name;
         this.runDistance = runDistance;
         this.jumpHeight = jumpHeight;
     }
 
-    public void run (int runDistance){
+    protected void run (int runDistance){
         if (runDistance <= this.runDistance){
             System.out.println(name + " can run " + runDistance + " meters");
         } else {
@@ -23,7 +23,7 @@ abstract class Animal {
         }
     }
 
-    public void jumpOverObstacles (float jumpHeight){
+    protected void jumpOverObstacles (float jumpHeight){
         if (jumpHeight <= this.jumpHeight){
             System.out.println(name + " can jump for " + jumpHeight + " meters");
         } else {

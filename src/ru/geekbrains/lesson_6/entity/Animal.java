@@ -15,7 +15,7 @@ abstract class Animal {
         this.jumpHeight = jumpHeight;
     }
 
-    protected void run (int runDistance){
+    public void run (int runDistance){
         if (runDistance <= this.runDistance){
             System.out.println(name + " can run " + runDistance + " meters");
         } else {
@@ -23,7 +23,7 @@ abstract class Animal {
         }
     }
 
-    protected void jumpOverObstacles (float jumpHeight){
+    public void jumpOverObstacles (float jumpHeight){
         if (jumpHeight <= this.jumpHeight){
             System.out.println(name + " can jump for " + jumpHeight + " meters");
         } else {

@@ -1,8 +1,5 @@
 package ru.geekbrains.lesson_6.entity;
 
-/**
- * Доступ к Animal только у потомков
- */
 public abstract class Animal {
 
     String name;

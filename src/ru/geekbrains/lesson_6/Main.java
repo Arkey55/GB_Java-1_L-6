@@ -1,6 +1,6 @@
 package ru.geekbrains.lesson_6;
 
-import ru.geekbrains.lesson_6.entity.Animal;
+import ru.geekbrains.lesson_6.aditionalEntity.Rabbit;
 import ru.geekbrains.lesson_6.entity.Cat;
 import ru.geekbrains.lesson_6.entity.Dog;
 

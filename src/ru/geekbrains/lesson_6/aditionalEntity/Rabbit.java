@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson_6;
+package ru.geekbrains.lesson_6.aditionalEntity;
 
 import ru.geekbrains.lesson_6.entity.Animal;
 

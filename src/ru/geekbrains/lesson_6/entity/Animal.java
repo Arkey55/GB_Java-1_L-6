@@ -3,11 +3,11 @@ package ru.geekbrains.lesson_6.entity;
 /**
  * Доступ к Animal только у потомков
  */
-abstract class Animal {
+public abstract class Animal {
 
-    protected String name;
-    protected int runDistance;
-    protected float jumpHeight;
+    String name;
+    private int runDistance;
+    private float jumpHeight;
 
     protected Animal(String name, int runDistance, float jumpHeight) {
         this.name = name;

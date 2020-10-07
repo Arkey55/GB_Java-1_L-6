@@ -2,7 +2,7 @@ package ru.geekbrains.lesson_6.entity;
 
 public abstract class Animal {
 
-    String name;
+    protected String name;
     private int runDistance;
     private float jumpHeight;
 

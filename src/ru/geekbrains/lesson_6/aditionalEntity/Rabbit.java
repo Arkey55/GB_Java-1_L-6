@@ -13,4 +13,7 @@ public class Rabbit extends Animal {
                 1f + new Random().nextInt(2)
         );
     }
+    public void eatCarrot(){
+        System.out.println(name + "eating carrot");
+    }
 }
